@@ -6,6 +6,8 @@
 
 ![img](https://lh6.googleusercontent.com/G_EQC844Ensy9Qu8EVkMpjvoelMUQrunEpr3LcWaOvkHMkEEyPj40A3RH9Ei-J3ordSJnrsePMGNNAcMVqqQsHRdXFoLzM1CXIZH1RNetl5pcrVZFNKX0UM8AV9z-YUhh606UsUrSS1eOv0MqbW9VHznpjDX2rl3BcgQbJEhWJrwK2Ol)
 
+
+
 ## Codelabs
 
 https://codelabs-preview.appspot.com/?file_id=1BhBjlWvZBvJ2e__9CgqX6AVNf9li-5bK2LvHCdVZB3k#0
@@ -27,10 +29,6 @@ streamlit run app.py
 ```
 
 
-
-## Cloud Formation Stack
-
-To replicate the stack please import the YAML file provided in the AWS Cloudformation console.
 
 ## Built With
 
