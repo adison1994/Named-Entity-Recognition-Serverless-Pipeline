@@ -1,0 +1,42 @@
+{
+  "Comment": "Start Scraping",
+  "StartAt": "Named Entity Extraction",
+  "States": {
+    "Named Entity Extraction": {
+      "Type": "Task",
+      "Resource": "",
+      "Next": "Masking, Anonymization & Deidentification"
+    },
+    "Masking, Anonymization & Deidentification": {
+      "Type": "Task",
+      "Resource": "",
+      "Next": "Reidentification Choice"
+    },
+    "Reidentification Choice": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.body.ReversibleorPermanent",
+          "StringEquals": "Reidentify",
+          "Next": "Reidentification"
+        },
+        {
+          "Variable": "$.body.ReversibleorPermanent",
+          "StringEquals": "Permanent",
+          "Next": "Final State"
+        }
+      ],
+       "Default": "Reidentification"
+    },
+    "Reidentification": {
+      "Type": "Task",
+      "Resource": "",
+      "Next": "Final State"
+    },
+    "Final State": {
+      "Type": "Task",
+      "Resource": "",
+      "End": true
+    }
+  }
+}

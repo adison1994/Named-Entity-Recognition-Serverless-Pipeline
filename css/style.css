@@ -1,0 +1,56 @@
+.highlight {
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.bold {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.back {
+  background-color: lightgray;
+  width: 280px;
+  border: 15px darkslateblue;
+  padding: 50px;
+  margin: 20px;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: darkslateblue;
+}
+
+.aqua {
+  background-color: lightseagreen;
+}
+.orchid {
+  background-color: darkorchid;
+}
+
+.dred {
+  background-color: darkred;
+}
+.coral {
+  background-color: coral;
+}
+
+.greenyellow {
+  background-color: greenyellow;
+}
+.pink {
+  background-color: hotpink;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.boxed {
+	border: 2px solid orange;
+	width: 300px;
+			}
+    		

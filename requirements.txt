@@ -1,0 +1,6 @@
+bs4
+faker
+selenium
+chromedriver
+boto3
+streamlit
